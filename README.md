@@ -1,6 +1,4 @@
-# SSHLooter C version
-It's the C version of [sshLooter](https://github.com/mthbernardes/sshLooter), which was written in python and have a lot of dependencies to be installed on the infected machine.
-Now with this C version, you compile it on your machine and send it to the infected machine without installing any dependencies.
+# 窃取主机SSH登录信息发送到Telegram频道中🤫
 
 # 依赖
 * gcc
@@ -50,7 +48,7 @@ account optional module.so
 6. 点击返回的类似t.me/aasxisobot的链接，接着点击下方的start
 7. 复制第二行的token信息替换到c文件中Your_Bot_Token
 
-##### 3.设置BOT为你频道的管理员
+#### 3.设置BOT为你频道的管理员
 1. 进入第一步所创建的频道
 2. 点击右上角的图标【进入频道主页】
 3. 点击Administrators【进入管理员主页】
@@ -58,4 +56,5 @@ account optional module.so
 5. 接着右上角的点击Done
 
 结束，当有ssh登录该主机时候，Telegram频道将会收到登录信息【主机名、用户名、密码】。
+
 🧐
